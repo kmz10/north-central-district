@@ -1,0 +1,247 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>The North & Central <br> District<br></title>
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background-color: black;
+      color: #fff;
+    }
+
+    .hero {
+      position: relative;
+      text-align: center;
+      padding: 100px 20px;
+      overflow: hidden;
+     
+    }
+
+   
+     
+
+    .hero::before {
+      content: "";
+      background: url('/img/hero5.jpg') no-repeat center center /cover;
+     padding: 100px 155px;
+      position:absolute;
+      top: 0; left: 0; right: 0; bottom: 0;
+      opacity: 0.65;
+      z-index: -1;
+    }
+
+    .hero h1 {
+      font-size: 3em;
+      font-family: "inter" , cursive;
+      font-weight: bold;
+      color: #fff;
+       text-shadow: -2px 0 black, 0 2px black, 2px 0 black, 0 -2px black;      border: 19px, black;
+      
+    }
+    
+    .permanent-marker-regular {
+  font-family: "Permanent Marker", cursive;
+  font-weight: 400;
+  font-style: normal;
+}
+
+    .ck{
+      height: 100px;
+      width: 100px;
+      display: block;
+      margin: auto;
+     margin-top: 100px;
+     border: hidden;
+    }
+
+    .ck:hover {
+      
+      transform: scale(1.09);
+    }
+
+    .ck1{
+      height: 50px;
+      width: 50px;
+      align-items: self-end;
+
+    }
+
+
+    h3 {
+      text-align: center;
+      font-size: 2em;
+      margin-top: 30px;
+    }
+
+    .card-container {
+      display: grid;
+      grid-template-columns: repeat(5, 1fr); /* 5 cards per row */
+      gap: 20px;
+      padding: 50px 80px 100px 80px;
+      justify-items: center;
+      /*display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 20px;
+      padding: 40px 20px;*/
+    }
+
+
+    @media (max-width: 768px) {
+  .card-container {
+    grid-template-columns: repeat(2, 1fr); /* 2 per row on tablets */
+  }
+}
+
+@media (max-width: 480px) {
+  .card-container {
+    grid-template-columns: 1fr; /* 1 per row on small phones */
+  }
+}
+
+    .card {
+      width: 120px;
+      height: 120px;
+      border-radius: 50%;
+      background: #111;
+      border: 2px solid #00f7ff;
+      color: #00f7ff;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-weight: bold;
+      text-decoration: none;
+      box-shadow: 0 0 10px #00f7ff66;
+      transition: 0.3s;
+    }
+
+    .card:hover {
+      box-shadow: 0 0 20px #00f7ff, 0 0 40px #00f7ff;
+      transform: scale(1.05);
+    }
+    
+    .card1 {
+  background-image: url('img/bolles.png');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  
+
+}
+
+   .card2 {
+  background-image: url('img/carolwoord.jfif');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+   .card3 {
+  background-image: url('img/tfa.jfif');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+   .card4 {
+  background-image: url('img/mhc.jfif');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+ 
+   .card5 {
+  background-image: url('img/lhp.png');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+   .card6 {
+  background-image: url('img/otd.jfif');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+   .card7 {
+  background-image: url('img/pine.png');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+   .card8 {
+  background-image: url('img/steds.png');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+   .card9 {
+  background-image: url('img/vanguard.jfif');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+   .card10 {
+  background-image: url('img/wp.jfif');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+footer {
+  background-color: #111;
+  color: #fff;
+  text-align: center;
+  padding: 20px;
+  font-style: italic;
+  font-size: 1.1em;
+  margin-top: 40px;
+  border-top: 2px solid #00f7ff44;
+}
+
+footer span {
+  display: block;
+}
+
+
+  </style>
+</head>
+<body>
+
+  <div class="hero ">
+    <h1>The North & Central <br>District <br> <br><br></h1>
+    
+  </div>
+
+  <div>
+  <img class="ck" src="img/CrtNChefKnny1.png">
+   <h3>Accounts</h3> 
+  </div>
+
+  <div class="card-container">
+    <a href="bolles.html" class="card card1"></a>
+    <a href="carolwood.html" class="card card2"></a>
+    <a href="firstacademy.html" class="card card3"></a>
+    <a href="holycomforter.html" class="card card4"></a>
+    <a href="lhp.html" class="card card5"></a>
+    <a href="outofdoor.html" class="card card6"></a>
+    <a href="thepineschool.html" class="card card7"></a>
+    <a href="sted.html" class="card card8"></a>
+    <a href="vanguard.html" class="card card9"></a>
+    <a href="windermere.html" class="card card10"></a>
+  </div>
+
+  <footer>
+  <span  style="display: inline;">No matter what, what ever it takes, get it done.</span>
+ 
+</footer>
+
+</body>
+</html>
